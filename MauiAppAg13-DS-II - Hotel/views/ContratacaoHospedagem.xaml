@@ -44,7 +44,7 @@
                                Increment="1" />
                 </Grid>
 
-                <Label Text="Escolha sua Suite"  />
+                <Label Text=" SUITE"  FontFamily="Kalam-Bold" />
                 
                 <Picker x:Name="pck_quarto"
                         Title="Serlecione sua Acomodação"/>
@@ -52,7 +52,7 @@
                        Margin="10">
 
                     <VerticalStackLayout>
-                        <Label Text="Periodo da Estadia"/>
+                        <Label Text="Periodo da Estadia"  FontFamily="Kalam-Bold"  />
                         
                         <HorizontalStackLayout>
                             <Label Text="Check-in:" />
@@ -69,14 +69,24 @@
                                       
                     
                 </Frame>
-                
-                <Button Text="Avançar" />
+
+                <ImageButton Source="dseta.png" 
+                BackgroundColor="Transparent"           
+                WidthRequest="100"
+               HeightRequest="100"
+                HorizontalOptions="Center"
+                VerticalOptions="Center"/>
                 
 
             </VerticalStackLayout>  
             
         </Frame>
-        <Button Text="Sobre" />
+        <ImageButton Source="sobre.png"
+             BackgroundColor="Transparent"           
+             WidthRequest="20"
+             HeightRequest="100"
+             HorizontalOptions="End"
+             VerticalOptions="Center"/>
         
         
     </VerticalStackLayout>

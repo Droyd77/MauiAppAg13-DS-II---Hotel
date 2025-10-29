@@ -31,14 +31,15 @@
                              Increment="1" />
 
                     <Label Grid.Row="1" Grid.Column="0"
-                           Text="Crianças:"/>
+                           Text="Criancas:"/>
 
                     <Label Grid.Row="1" Grid.Column="1"
                            TextColor="Violet" 
                            Text="{Binding Value}"       
-                           BindingContext="{x:Reference stp_crianças}"/>
+                           BindingContext="{x:Reference stp_criancas}"/>
+                    
                     <Stepper Grid.Row="1" Grid.Column="2"
-                               x:Name="stp_crianças"
+                               x:Name="stp_criancas"
                                Minimum="0"
                                Maximum="10"
                                Increment="1" />
@@ -86,7 +87,8 @@
              WidthRequest="20"
              HeightRequest="100"
              HorizontalOptions="End"
-             VerticalOptions="Center"/>
+             VerticalOptions="Center"
+             Clicked="OnSobreClicked"/>
         
         
     </VerticalStackLayout>

@@ -11,8 +11,8 @@ namespace MauiAppAg13_DS_II___Hotel.views
 
         private async void OnLinkTapped(object sender, TappedEventArgs e)
         {
-            // Abre o navegador padrão no link informado
-            await Launcher.OpenAsync("https://github.com/");
+            // Abre link informado
+            await Launcher.OpenAsync("https://github.com/Droyd77/MauiAppAg13-DS-II---Hotel.git");
         }
 
     }

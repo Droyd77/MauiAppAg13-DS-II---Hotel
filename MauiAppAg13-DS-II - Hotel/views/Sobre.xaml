@@ -58,14 +58,14 @@ Prof. Tiago Silva. "
            </ScrollView>
         
             <ScrollView>
-                        
-            <Label Text="https://github.com/"
+
+            <Label Text="https://github.com/Droyd77/MauiAppAg13-DS-II---Hotel.git"
                    FontSize="12"
                    TextColor="Blue"
                    TextDecorations="Underline">
                 <Label.GestureRecognizers>
                     <TapGestureRecognizer
-                        CommandParameter="https://github.com/"
+                        CommandParameter="https://github.com/Droyd77/MauiAppAg13-DS-II---Hotel.git"
                         Tapped="OnLinkTapped" />
                 </Label.GestureRecognizers>
             </Label>
